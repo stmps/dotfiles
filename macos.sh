@@ -19,3 +19,6 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
