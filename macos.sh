@@ -22,3 +22,7 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
+
+# Disable mouse (not touchpad) acceleration
+# https://stackoverflow.com/questions/5782884/disabling-mouse-acceleration-in-mac-os-x
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
