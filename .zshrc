@@ -1,5 +1,6 @@
 # shell
 alias ll="ls -lahG"
+alias sk="ssh-add -K ~/.ssh/id_ed25519"
 
 # docker
 alias d="docker"
