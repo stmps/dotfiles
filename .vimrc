@@ -1,6 +1,9 @@
 " Ignore case when searching
 set ignorecase
 
+" Enable syntax highlighting
+syntax on
+
 " When searching try to be smart about cases 
 set smartcase
 
