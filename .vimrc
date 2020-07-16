@@ -11,6 +11,7 @@ set hlsearch
 set showmatch
 
 set background=dark
+colorscheme industry
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
@@ -32,5 +33,7 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+"set cuc "Column highlighting
+set number "Absolute line numbering
 
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
